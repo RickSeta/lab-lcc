@@ -1,0 +1,5 @@
+for i in {0..599};do
+    original_filename="rev_SD_BIN_$(printf '%03d' $i).png";
+    new_filename="rev_SD_BIN_$(printf '%04d' $i)";
+    mv "$original_filename" "$new_filename.png";
+done
