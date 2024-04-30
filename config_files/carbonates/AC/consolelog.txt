@@ -1,0 +1,1540 @@
+--- Building RWNMR essentials
+-- Loading uCT-image
+- loading rock image from list:
+- creating (bit)block map:
+- counting pore voxels in rock image:
+28438185 pore voxel(s) identified. porosity: 0.131658
+- counting pore-matrix interface voxels in rock image:
+27340012 interface pore-matrix voxel(s) identified. S/Vp: 0.961384
+-- Setting random walkers
+- creating 100000 walkers:
+- creating complete pore list:
+- creating walkers ID list:
+- placing walkers uniformly using 16 cpu threads:
+- applying voxel division:
+-- Creating and filtering collisions map
+- Initial map time: 4.16667 ms [1000 RW-steps]
+- starting 3DRW-Mapping simulation (in GPU) [bc:mirror]...Done.
+elapsed time: 0.0445469 seconds
+-- Saving uCT-image info
+saving results:
+------------------------------------------------------
+>>> NMR SIMULATION 3D PARAMETERS: PFGSE_NMR_rtag=AC_res=1.00_rho=23.3_shift=1_w=100k_ws=1_bc=mirror_axis=2_snr=0.0001
+------------------------------------------------------
+Data path: /home/lablcc/Documents/matheus/cpp-rwnmr/src/.././db/PFGSE_NMR_rtag=AC_res=1.00_rho=23.3_shift=1_w=100k_ws=1_bc=mirror_axis=2_snr=0.0001
+Image path: /home/lablcc/Documents/matheus/image-rev/revs/protocol_2/rev_AC_BIN_rm=center_rs=1/imgs/rev_AC_BIN_000.png
+Image resolution (um/voxel): 0.25
+Diffusion coefficient (um^2/ms): 2.5
+Number of images: 600
+Walkers pore occupancy in simulation: 0.35164%
+Initial seed: 42
+GPU usage: ON
+BC: mirror
+------------------------------------------------------
+-- PFGSE to be executed:
+-- Pre-processing:
+- Reseting walker initial state
+-- Done in 0.00298066 seconds.
+-- Exposure time: 10 ms [2400 RW-steps]
+- starting RW-PFGSE simulation (in GPU) [bc:mirror]...[2400 RW-steps]... Done.
+Cpu/Gpu elapsed time: 0.180076 s
+Noise:: Amp: 0.0001, SNR: 3.0367e+07
+-- Results:
+- Stejskal-Tanner (s&t) without sampling:
+points to sample: 100 where lhs: 0.873925
+D(10 ms) {s&t} = 1.26409[+/- 0.000648744]
+in 2.0609e-05 seconds.
+- Mean squared displacement (msd) without sampling:
+D(10 ms) {msd} = 1.33647
+Dxx = 1.40025, 	Dyy = 1.39276, 	Dzz = 1.21641
+in 0.00120845 seconds.
+- saving results...Ok. (0.00267028 seconds).
+-- Done in 0.214988 seconds.
+-- Exposure time: 60.4083 ms [14498 RW-steps]
+- starting RW-PFGSE simulation (in GPU) [bc:mirror]...[12098 RW-steps]... Done.
+Cpu/Gpu elapsed time: 0.292337 s
+Noise:: Amp: 0.0001, SNR: 3.44506e+06
+-- Results:
+- Stejskal-Tanner (s&t) without sampling:
+points to sample: 50 where lhs: 0.84183
+D(60.4083 ms) {s&t} = 1.09088[+/- 0.00100989]
+in 1.8955e-05 seconds.
+- Mean squared displacement (msd) without sampling:
+D(60.4083 ms) {msd} = 0.963739
+Dxx = 1.01966, 	Dyy = 0.991599, 	Dzz = 0.879957
+in 0.00120453 seconds.
+- saving results...Ok. (0.00268857 seconds).
+-- Done in 0.38233 seconds.
+-- Exposure time: 110.808 ms [26594 RW-steps]
+- starting RW-PFGSE simulation (in GPU) [bc:mirror]...[12096 RW-steps]... Done.
+Cpu/Gpu elapsed time: 0.294482 s
+Noise:: Amp: 0.0001, SNR: 1.04841e+06
+-- Results:
+- Stejskal-Tanner (s&t) without sampling:
+points to sample: 40 where lhs: 0.821082
+D(110.808 ms) {s&t} = 1.07866[+/- 0.00159043]
+in 1.8054e-05 seconds.
+- Mean squared displacement (msd) without sampling:
+D(110.808 ms) {msd} = 0.842268
+Dxx = 0.887005, 	Dyy = 0.862022, 	Dzz = 0.777776
+in 0.00112204 seconds.
+- saving results...Ok. (0.00268748 seconds).
+-- Done in 0.385097 seconds.
+-- Exposure time: 161.217 ms [38692 RW-steps]
+- starting RW-PFGSE simulation (in GPU) [bc:mirror]...[12098 RW-steps]... Done.
+Cpu/Gpu elapsed time: 0.293884 s
+Noise:: Amp: 0.0001, SNR: 358382
+-- Results:
+- Stejskal-Tanner (s&t) without sampling:
+points to sample: 35 where lhs: 0.805103
+D(161.217 ms) {s&t} = 1.06481[+/- 0.00139266]
+in 1.9868e-05 seconds.
+- Mean squared displacement (msd) without sampling:
+D(161.217 ms) {msd} = 0.772184
+Dxx = 0.809934, 	Dyy = 0.791362, 	Dzz = 0.715257
+in 0.00118277 seconds.
+- saving results...Ok. (0.0044675 seconds).
+-- Done in 0.539743 seconds.
+-- Exposure time: 211.617 ms [50788 RW-steps]
+- starting RW-PFGSE simulation (in GPU) [bc:mirror]...[12096 RW-steps]... Done.
+Cpu/Gpu elapsed time: 0.289986 s
+Noise:: Amp: 0.0001, SNR: 148222
+-- Results:
+- Stejskal-Tanner (s&t) without sampling:
+points to sample: 32 where lhs: 0.791526
+D(211.617 ms) {s&t} = 1.05719[+/- 0.00219928]
+in 2.9666e-05 seconds.
+- Mean squared displacement (msd) without sampling:
+D(211.617 ms) {msd} = 0.719319
+Dxx = 0.753874, 	Dyy = 0.735836, 	Dzz = 0.668247
+in 0.00139141 seconds.
+- saving results...Ok. (0.00462007 seconds).
+-- Done in 0.400277 seconds.
+-- Exposure time: 262.025 ms [62886 RW-steps]
+- starting RW-PFGSE simulation (in GPU) [bc:mirror]...[12098 RW-steps]... Done.
+Cpu/Gpu elapsed time: 0.385765 s
+Noise:: Amp: 0.0001, SNR: 62713.2
+-- Results:
+- Stejskal-Tanner (s&t) without sampling:
+points to sample: 30 where lhs: 0.78164
+D(262.025 ms) {s&t} = 1.03083[+/- 0.00276623]
+in 1.7613e-05 seconds.
+- Mean squared displacement (msd) without sampling:
+D(262.025 ms) {msd} = 0.682134
+Dxx = 0.714358, 	Dyy = 0.698751, 	Dzz = 0.633294
+in 0.00110505 seconds.
+- saving results...Ok. (0.00267557 seconds).
+-- Done in 0.487748 seconds.
+-- Exposure time: 312.425 ms [74982 RW-steps]
+- starting RW-PFGSE simulation (in GPU) [bc:mirror]...[12096 RW-steps]... Done.
+Cpu/Gpu elapsed time: 0.302145 s
+Noise:: Amp: 0.0001, SNR: 33284.1
+-- Results:
+- Stejskal-Tanner (s&t) without sampling:
+points to sample: 28 where lhs: 0.776066
+D(312.425 ms) {s&t} = 1.01978[+/- 0.00421705]
+in 1.651e-05 seconds.
+- Mean squared displacement (msd) without sampling:
+D(312.425 ms) {msd} = 0.650945
+Dxx = 0.684926, 	Dyy = 0.665236, 	Dzz = 0.602672
+in 0.00113811 seconds.
+- saving results...Ok. (0.0027092 seconds).
+-- Done in 0.397058 seconds.
+-- Exposure time: 362.833 ms [87080 RW-steps]
+- starting RW-PFGSE simulation (in GPU) [bc:mirror]...[12098 RW-steps]... Done.
+Cpu/Gpu elapsed time: 0.35249 s
+Noise:: Amp: 0.0001, SNR: 16553.7
+-- Results:
+- Stejskal-Tanner (s&t) without sampling:
+points to sample: 27 where lhs: 0.767266
+D(362.833 ms) {s&t} = 1.00171[+/- 0.00544294]
+in 1.612e-05 seconds.
+- Mean squared displacement (msd) without sampling:
+D(362.833 ms) {msd} = 0.624778
+Dxx = 0.654759, 	Dyy = 0.637091, 	Dzz = 0.582483
+in 0.00111946 seconds.
+- saving results...Ok. (0.00273707 seconds).
+-- Done in 0.451136 seconds.
+-- Exposure time: 413.233 ms [99176 RW-steps]
+- starting RW-PFGSE simulation (in GPU) [bc:mirror]...[12096 RW-steps]... Done.
+Cpu/Gpu elapsed time: 0.298575 s
+Noise:: Amp: 0.0001, SNR: 8959.95
+-- Results:
+- Stejskal-Tanner (s&t) without sampling:
+points to sample: 27 where lhs: 0.747936
+D(413.233 ms) {s&t} = 0.94412[+/- 0.0082269]
+in 1.7452e-05 seconds.
+- Mean squared displacement (msd) without sampling:
+D(413.233 ms) {msd} = 0.602796
+Dxx = 0.630208, 	Dyy = 0.614483, 	Dzz = 0.563698
+in 0.00111205 seconds.
+- saving results...Ok. (0.00277756 seconds).
+-- Done in 0.395873 seconds.
+-- Exposure time: 463.642 ms [111274 RW-steps]
+- starting RW-PFGSE simulation (in GPU) [bc:mirror]...[12098 RW-steps]... Done.
+Cpu/Gpu elapsed time: 0.295715 s
+Noise:: Amp: 0.0001, SNR: 4977.7
+-- Results:
+- Stejskal-Tanner (s&t) without sampling:
+points to sample: 25 where lhs: 0.753278
+D(463.642 ms) {s&t} = 1.01232[+/- 0.0119459]
+in 1.7994e-05 seconds.
+- Mean squared displacement (msd) without sampling:
+D(463.642 ms) {msd} = 0.585646
+Dxx = 0.610491, 	Dyy = 0.596681, 	Dzz = 0.549766
+in 0.00111661 seconds.
+- saving results...Ok. (0.0027093 seconds).
+-- Done in 0.386352 seconds.
+-- Exposure time: 514.042 ms [123370 RW-steps]
+- starting RW-PFGSE simulation (in GPU) [bc:mirror]...[12096 RW-steps]... Done.
+Cpu/Gpu elapsed time: 0.328541 s
+Noise:: Amp: 0.0001, SNR: 2841.37
+-- Results:
+- Stejskal-Tanner (s&t) without sampling:
+points to sample: 25 where lhs: 0.734644
+D(514.042 ms) {s&t} = 0.931281[+/- 0.0103831]
+in 3.0186e-05 seconds.
+- Mean squared displacement (msd) without sampling:
+D(514.042 ms) {msd} = 0.568095
+Dxx = 0.589037, 	Dyy = 0.57931, 	Dzz = 0.53594
+in 0.00141453 seconds.
+- saving results...Ok. (0.00571111 seconds).
+-- Done in 0.588827 seconds.
+-- Exposure time: 564.45 ms [135468 RW-steps]
+- starting RW-PFGSE simulation (in GPU) [bc:mirror]...[12098 RW-steps]... Done.
+Cpu/Gpu elapsed time: 0.325135 s
+Noise:: Amp: 0.0001, SNR: 1578.08
+-- Results:
+- Stejskal-Tanner (s&t) without sampling:
+points to sample: 25 where lhs: 0.722024
+D(564.45 ms) {s&t} = 0.91486[+/- 0.0117818]
+in 1.6771e-05 seconds.
+- Mean squared displacement (msd) without sampling:
+D(564.45 ms) {msd} = 0.553298
+Dxx = 0.574134, 	Dyy = 0.564978, 	Dzz = 0.520781
+in 0.00111616 seconds.
+- saving results...Ok. (0.002737 seconds).
+-- Done in 0.421937 seconds.
+-- Exposure time: 614.85 ms [147564 RW-steps]
+- starting RW-PFGSE simulation (in GPU) [bc:mirror]...[12096 RW-steps]... Done.
+Cpu/Gpu elapsed time: 0.304297 s
+Noise:: Amp: 0.0001, SNR: 899.274
+-- Results:
+- Stejskal-Tanner (s&t) without sampling:
+points to sample: 25 where lhs: 0.702902
+D(614.85 ms) {s&t} = 0.919967[+/- 0.0187517]
+in 1.7483e-05 seconds.
+- Mean squared displacement (msd) without sampling:
+D(614.85 ms) {msd} = 0.540561
+Dxx = 0.561138, 	Dyy = 0.550593, 	Dzz = 0.509953
+in 0.00126011 seconds.
+- saving results...Ok. (0.00273161 seconds).
+-- Done in 0.544943 seconds.
+-- Exposure time: 665.258 ms [159662 RW-steps]
+- starting RW-PFGSE simulation (in GPU) [bc:mirror]...[12098 RW-steps]... Done.
+Cpu/Gpu elapsed time: 0.298247 s
+Noise:: Amp: 0.0001, SNR: 610.993
+-- Results:
+- Stejskal-Tanner (s&t) without sampling:
+points to sample: 25 where lhs: 0.701118
+D(665.258 ms) {s&t} = 0.865549[+/- 0.0167927]
+in 1.8464e-05 seconds.
+- Mean squared displacement (msd) without sampling:
+D(665.258 ms) {msd} = 0.527412
+Dxx = 0.547503, 	Dyy = 0.537834, 	Dzz = 0.496897
+in 0.00114281 seconds.
+- saving results...Ok. (0.00277212 seconds).
+-- Done in 0.394411 seconds.
+-- Exposure time: 715.658 ms [171758 RW-steps]
+- starting RW-PFGSE simulation (in GPU) [bc:mirror]...[12096 RW-steps]... Done.
+Cpu/Gpu elapsed time: 0.308311 s
+Noise:: Amp: 0.0001, SNR: 337.549
+-- Results:
+- Stejskal-Tanner (s&t) without sampling:
+points to sample: 25 where lhs: 0.675129
+D(715.658 ms) {s&t} = 0.894672[+/- 0.0277648]
+in 1.9547e-05 seconds.
+- Mean squared displacement (msd) without sampling:
+D(715.658 ms) {msd} = 0.518211
+Dxx = 0.537687, 	Dyy = 0.527865, 	Dzz = 0.48908
+in 0.00123138 seconds.
+- saving results...Ok. (0.0027387 seconds).
+-- Done in 0.415936 seconds.
+-- Exposure time: 766.067 ms [183856 RW-steps]
+- starting RW-PFGSE simulation (in GPU) [bc:mirror]...[12098 RW-steps]... Done.
+Cpu/Gpu elapsed time: 0.322875 s
+Noise:: Amp: 0.0001, SNR: 220.459
+-- Results:
+- Stejskal-Tanner (s&t) without sampling:
+points to sample: 25 where lhs: 0.656207
+D(766.067 ms) {s&t} = 0.896996[+/- 0.0393124]
+in 1.9336e-05 seconds.
+- Mean squared displacement (msd) without sampling:
+D(766.067 ms) {msd} = 0.509284
+Dxx = 0.526509, 	Dyy = 0.520381, 	Dzz = 0.480961
+in 0.00122658 seconds.
+- saving results...Ok. (0.00277238 seconds).
+-- Done in 0.425668 seconds.
+-- Exposure time: 816.467 ms [195952 RW-steps]
+- starting RW-PFGSE simulation (in GPU) [bc:mirror]...[12096 RW-steps]... Done.
+Cpu/Gpu elapsed time: 0.367044 s
+Noise:: Amp: 0.0001, SNR: 129.079
+-- Results:
+- Stejskal-Tanner (s&t) without sampling:
+points to sample: 25 where lhs: 0.625514
+D(816.467 ms) {s&t} = 0.915392[+/- 0.0587855]
+in 1.8484e-05 seconds.
+- Mean squared displacement (msd) without sampling:
+D(816.467 ms) {msd} = 0.500353
+Dxx = 0.515999, 	Dyy = 0.513715, 	Dzz = 0.471346
+in 0.00124428 seconds.
+- saving results...Ok. (0.00272947 seconds).
+-- Done in 0.461821 seconds.
+-- Exposure time: 866.875 ms [208050 RW-steps]
+- starting RW-PFGSE simulation (in GPU) [bc:mirror]...[12098 RW-steps]... Done.
+Cpu/Gpu elapsed time: 0.300121 s
+Noise:: Amp: 0.0001, SNR: 75.8296
+-- Results:
+- Stejskal-Tanner (s&t) without sampling:
+points to sample: 25 where lhs: 0.618562
+D(866.875 ms) {s&t} = 0.879015[+/- 0.064731]
+in 1.8875e-05 seconds.
+- Mean squared displacement (msd) without sampling:
+D(866.875 ms) {msd} = 0.491235
+Dxx = 0.507122, 	Dyy = 0.502772, 	Dzz = 0.463811
+in 0.00132683 seconds.
+- saving results...Ok. (0.00283335 seconds).
+-- Done in 0.395753 seconds.
+-- Exposure time: 917.275 ms [220146 RW-steps]
+- starting RW-PFGSE simulation (in GPU) [bc:mirror]...[12096 RW-steps]... Done.
+Cpu/Gpu elapsed time: 0.298198 s
+Noise:: Amp: 0.0001, SNR: 57.893
+-- Results:
+- Stejskal-Tanner (s&t) without sampling:
+points to sample: 25 where lhs: 0.634435
+D(917.275 ms) {s&t} = 0.741395[+/- 0.0578004]
+in 1.8044e-05 seconds.
+- Mean squared displacement (msd) without sampling:
+D(917.275 ms) {msd} = 0.482493
+Dxx = 0.498107, 	Dyy = 0.493049, 	Dzz = 0.456323
+in 0.00114739 seconds.
+- saving results...Ok. (0.00266544 seconds).
+-- Done in 0.39638 seconds.
+-- Exposure time: 967.683 ms [232244 RW-steps]
+- starting RW-PFGSE simulation (in GPU) [bc:mirror]...[12098 RW-steps]... Done.
+Cpu/Gpu elapsed time: 0.299736 s
+Noise:: Amp: 0.0001, SNR: 29.1356
+-- Results:
+- Stejskal-Tanner (s&t) without sampling:
+points to sample: 25 where lhs: 0.582796
+D(967.683 ms) {s&t} = 0.85013[+/- 0.0927569]
+in 1.9396e-05 seconds.
+- Mean squared displacement (msd) without sampling:
+D(967.683 ms) {msd} = 0.474519
+Dxx = 0.490139, 	Dyy = 0.484197, 	Dzz = 0.44922
+in 0.00113776 seconds.
+- saving results...Ok. (0.00268986 seconds).
+-- Done in 0.53947 seconds.
+-- Exposure time: 1018.08 ms [244340 RW-steps]
+- starting RW-PFGSE simulation (in GPU) [bc:mirror]...[12096 RW-steps]... Done.
+Cpu/Gpu elapsed time: 0.30127 s
+Noise:: Amp: 0.0001, SNR: 19.2748
+-- Results:
+- Stejskal-Tanner (s&t) without sampling:
+points to sample: 25 where lhs: 0.615147
+D(1018.08 ms) {s&t} = 1.0107[+/- 0.156638]
+in 1.8254e-05 seconds.
+- Mean squared displacement (msd) without sampling:
+D(1018.08 ms) {msd} = 0.46712
+Dxx = 0.480768, 	Dyy = 0.47698, 	Dzz = 0.443612
+in 0.00113509 seconds.
+- saving results...Ok. (0.00276242 seconds).
+-- Done in 0.401828 seconds.
+-- Exposure time: 1068.49 ms [256438 RW-steps]
+- starting RW-PFGSE simulation (in GPU) [bc:mirror]...[12098 RW-steps]... Done.
+Cpu/Gpu elapsed time: 0.388715 s
+Noise:: Amp: 0.0001, SNR: 12.1555
+-- Results:
+- Stejskal-Tanner (s&t) without sampling:
+points to sample: 25 where lhs: 0.673726
+D(1068.49 ms) {s&t} = 0.736888[+/- 0.161688]
+in 1.9166e-05 seconds.
+- Mean squared displacement (msd) without sampling:
+D(1068.49 ms) {msd} = 0.461154
+Dxx = 0.474601, 	Dyy = 0.470931, 	Dzz = 0.437931
+in 0.00113104 seconds.
+- saving results...Ok. (0.00283373 seconds).
+-- Done in 0.483532 seconds.
+-- Exposure time: 1118.89 ms [268534 RW-steps]
+- starting RW-PFGSE simulation (in GPU) [bc:mirror]...[12096 RW-steps]... Done.
+Cpu/Gpu elapsed time: 0.301562 s
+Noise:: Amp: 0.0001, SNR: 8.52157
+-- Results:
+- Stejskal-Tanner (s&t) without sampling:
+points to sample: 25 where lhs: 0.656719
+D(1118.89 ms) {s&t} = 0.71026[+/- 0.143894]
+in 1.7273e-05 seconds.
+- Mean squared displacement (msd) without sampling:
+D(1118.89 ms) {msd} = 0.455337
+Dxx = 0.46852, 	Dyy = 0.463428, 	Dzz = 0.434065
+in 0.00114351 seconds.
+- saving results...Ok. (0.0031772 seconds).
+-- Done in 0.398368 seconds.
+-- Exposure time: 1169.3 ms [280632 RW-steps]
+- starting RW-PFGSE simulation (in GPU) [bc:mirror]...[12098 RW-steps]... Done.
+Cpu/Gpu elapsed time: 0.393905 s
+Noise:: Amp: 0.0001, SNR: 4.47592
+-- Results:
+- Stejskal-Tanner (s&t) without sampling:
+points to sample: 25 where lhs: 0.330961
+D(1169.3 ms) {s&t} = 1.17287[+/- 0.296862]
+in 1.8244e-05 seconds.
+- Mean squared displacement (msd) without sampling:
+D(1169.3 ms) {msd} = 0.449526
+Dxx = 0.462697, 	Dyy = 0.457454, 	Dzz = 0.428427
+in 0.00111685 seconds.
+- saving results...Ok. (0.00270367 seconds).
+-- Done in 0.490316 seconds.
+-- Exposure time: 1219.7 ms [292728 RW-steps]
+- starting RW-PFGSE simulation (in GPU) [bc:mirror]...[12096 RW-steps]... Done.
+Cpu/Gpu elapsed time: 0.315074 s
+Noise:: Amp: 0.0001, SNR: 2.82351
+-- Results:
+- Stejskal-Tanner (s&t) without sampling:
+points to sample: 27 where lhs: 0.569179
+D(1219.7 ms) {s&t} = 0.386359[+/- 0.296333]
+in 1.9908e-05 seconds.
+- Mean squared displacement (msd) without sampling:
+D(1219.7 ms) {msd} = 0.443517
+Dxx = 0.455828, 	Dyy = 0.451097, 	Dzz = 0.423624
+in 0.00126959 seconds.
+- saving results...Ok. (0.00277127 seconds).
+-- Done in 0.404574 seconds.
+-- Exposure time: 1270.11 ms [304826 RW-steps]
+- starting RW-PFGSE simulation (in GPU) [bc:mirror]...[12098 RW-steps]... Done.
+Cpu/Gpu elapsed time: 0.302604 s
+Noise:: Amp: 0.0001, SNR: 2.03842
+-- Results:
+- Stejskal-Tanner (s&t) without sampling:
+points to sample: 25 where lhs: 0.281197
+D(1270.11 ms) {s&t} = 1.30612[+/- 0.345765]
+in 2.0408e-05 seconds.
+- Mean squared displacement (msd) without sampling:
+D(1270.11 ms) {msd} = 0.438224
+Dxx = 0.450226, 	Dyy = 0.446079, 	Dzz = 0.418366
+in 0.00136656 seconds.
+- saving results...Ok. (0.00268513 seconds).
+-- Done in 0.394711 seconds.
+-- Exposure time: 1320.51 ms [316922 RW-steps]
+- starting RW-PFGSE simulation (in GPU) [bc:mirror]...[12096 RW-steps]... Done.
+Cpu/Gpu elapsed time: 0.329472 s
+Noise:: Amp: 0.0001, SNR: 1.42874
+-- Results:
+- Stejskal-Tanner (s&t) without sampling:
+points to sample: 25 where lhs: 0.343778
+D(1320.51 ms) {s&t} = 1.24141[+/- 0.444523]
+in 2.1741e-05 seconds.
+- Mean squared displacement (msd) without sampling:
+D(1320.51 ms) {msd} = 0.433113
+Dxx = 0.444636, 	Dyy = 0.440977, 	Dzz = 0.413725
+in 0.00121502 seconds.
+- saving results...Ok. (0.00261174 seconds).
+-- Done in 0.569994 seconds.
+-- Exposure time: 1370.92 ms [329020 RW-steps]
+- starting RW-PFGSE simulation (in GPU) [bc:mirror]...[12098 RW-steps]... Done.
+Cpu/Gpu elapsed time: 0.302406 s
+Noise:: Amp: 0.0001, SNR: 0.850654
+-- Results:
+- Stejskal-Tanner (s&t) without sampling:
+points to sample: 26 where lhs: 0.501179
+D(1370.92 ms) {s&t} = 0.54952[+/- 0.718516]
+in 1.7914e-05 seconds.
+- Mean squared displacement (msd) without sampling:
+D(1370.92 ms) {msd} = 0.429431
+Dxx = 0.440817, 	Dyy = 0.437051, 	Dzz = 0.410424
+in 0.00180278 seconds.
+- saving results...Ok. (0.00288066 seconds).
+-- Done in 0.39198 seconds.
+-- Exposure time: 1421.32 ms [341116 RW-steps]
+- starting RW-PFGSE simulation (in GPU) [bc:mirror]...[12096 RW-steps]... Done.
+Cpu/Gpu elapsed time: 0.355386 s
+Noise:: Amp: 0.0001, SNR: 0.666748
+-- Results:
+- Stejskal-Tanner (s&t) without sampling:
+points to sample: 27 where lhs: 0.797001
+D(1421.32 ms) {s&t} = 0.521529[+/- 0.938256]
+in 1.9346e-05 seconds.
+- Mean squared displacement (msd) without sampling:
+D(1421.32 ms) {msd} = 0.42513
+Dxx = 0.437561, 	Dyy = 0.431474, 	Dzz = 0.406355
+in 0.00112629 seconds.
+- saving results...Ok. (0.00278102 seconds).
+-- Done in 0.460155 seconds.
+-- Exposure time: 1471.72 ms [353214 RW-steps]
+- starting RW-PFGSE simulation (in GPU) [bc:mirror]...[12098 RW-steps]... Done.
+Cpu/Gpu elapsed time: 0.30746 s
+Noise:: Amp: 0.0001, SNR: 0.365958
+-- Results:
+- Stejskal-Tanner (s&t) without sampling:
+points to sample: 33 where lhs: 0.522849
+D(1471.72 ms) {s&t} = 0.248484[+/- 1.16731]
+in 1.9166e-05 seconds.
+- Mean squared displacement (msd) without sampling:
+D(1471.72 ms) {msd} = 0.420939
+Dxx = 0.433306, 	Dyy = 0.426936, 	Dzz = 0.402576
+in 0.0011524 seconds.
+- saving results...Ok. (0.00269362 seconds).
+-- Done in 0.396006 seconds.
+-- Exposure time: 1522.12 ms [365310 RW-steps]
+- starting RW-PFGSE simulation (in GPU) [bc:mirror]...[12096 RW-steps]... Done.
+Cpu/Gpu elapsed time: 0.338695 s
+Noise:: Amp: 0.0001, SNR: 0.243792
+-- Results:
+- Stejskal-Tanner (s&t) without sampling:
+points to sample: 25 where lhs: 0.197476
+D(1522.12 ms) {s&t} = 0.935282[+/- 1.1128]
+in 1.8855e-05 seconds.
+- Mean squared displacement (msd) without sampling:
+D(1522.12 ms) {msd} = 0.416892
+Dxx = 0.42858, 	Dyy = 0.422705, 	Dzz = 0.399391
+in 0.00116433 seconds.
+- saving results...Ok. (0.00267302 seconds).
+-- Done in 0.431828 seconds.
+-- Exposure time: 1572.53 ms [377408 RW-steps]
+- starting RW-PFGSE simulation (in GPU) [bc:mirror]...[12098 RW-steps]... Done.
+Cpu/Gpu elapsed time: 0.306387 s
+Noise:: Amp: 0.0001, SNR: 0.158012
+-- Results:
+- Stejskal-Tanner (s&t) without sampling:
+points to sample: 25 where lhs: 2.12452
+D(1572.53 ms) {s&t} = 3.38575[+/- 9.13829]
+in 1.9356e-05 seconds.
+- Mean squared displacement (msd) without sampling:
+D(1572.53 ms) {msd} = 0.413012
+Dxx = 0.42447, 	Dyy = 0.419298, 	Dzz = 0.395268
+in 0.00117091 seconds.
+- saving results...Ok. (0.00269709 seconds).
+-- Done in 0.395933 seconds.
+-- Exposure time: 1622.93 ms [389504 RW-steps]
+- starting RW-PFGSE simulation (in GPU) [bc:mirror]...[12096 RW-steps]... Done.
+Cpu/Gpu elapsed time: 0.302934 s
+Noise:: Amp: 0.0001, SNR: 0.0981852
+-- Results:
+- Stejskal-Tanner (s&t) without sampling:
+points to sample: 25 where lhs: 0.263387
+D(1622.93 ms) {s&t} = 5.5075[+/- 10.0784]
+in 3.0718e-05 seconds.
+- Mean squared displacement (msd) without sampling:
+D(1622.93 ms) {msd} = 0.409157
+Dxx = 0.420168, 	Dyy = 0.41656, 	Dzz = 0.390745
+in 0.00131441 seconds.
+- saving results...Ok. (0.00362945 seconds).
+-- Done in 0.410382 seconds.
+-- Exposure time: 1673.33 ms [401600 RW-steps]
+- starting RW-PFGSE simulation (in GPU) [bc:mirror]...[12096 RW-steps]... Done.
+Cpu/Gpu elapsed time: 0.300683 s
+Noise:: Amp: 0.0001, SNR: 0.059732
+-- Results:
+- Stejskal-Tanner (s&t) without sampling:
+points to sample: 25 where lhs: 0.506346
+D(1673.33 ms) {s&t} = 3.21064[+/- 5.30008]
+in 1.8715e-05 seconds.
+- Mean squared displacement (msd) without sampling:
+D(1673.33 ms) {msd} = 0.405408
+Dxx = 0.417051, 	Dyy = 0.411745, 	Dzz = 0.387428
+in 0.00123508 seconds.
+- saving results...Ok. (0.00270815 seconds).
+-- Done in 0.534164 seconds.
+-- Exposure time: 1723.74 ms [413698 RW-steps]
+- starting RW-PFGSE simulation (in GPU) [bc:mirror]...[12098 RW-steps]... Done.
+Cpu/Gpu elapsed time: 0.304967 s
+Noise:: Amp: 0.0001, SNR: 0.0414825
+-- Results:
+- Stejskal-Tanner (s&t) without sampling:
+points to sample: 25 where lhs: 1e-06
+D(1723.74 ms) {s&t} = 3.43843[+/- 9.04026]
+in 1.8465e-05 seconds.
+- Mean squared displacement (msd) without sampling:
+D(1723.74 ms) {msd} = 0.401953
+Dxx = 0.413396, 	Dyy = 0.407851, 	Dzz = 0.384611
+in 0.00115888 seconds.
+- saving results...Ok. (0.00308227 seconds).
+-- Done in 0.404242 seconds.
+-- Exposure time: 1774.14 ms [425794 RW-steps]
+- starting RW-PFGSE simulation (in GPU) [bc:mirror]...[12096 RW-steps]... Done.
+Cpu/Gpu elapsed time: 0.303917 s
+Noise:: Amp: 0.0001, SNR: 0.0269975
+-- Results:
+- Stejskal-Tanner (s&t) without sampling:
+points to sample: 25 where lhs: 0.339631
+D(1774.14 ms) {s&t} = 3.84749[+/- 13.3904]
+in 1.8615e-05 seconds.
+- Mean squared displacement (msd) without sampling:
+D(1774.14 ms) {msd} = 0.398861
+Dxx = 0.41028, 	Dyy = 0.40483, 	Dzz = 0.381473
+in 0.00111735 seconds.
+- saving results...Ok. (0.00271979 seconds).
+-- Done in 0.403207 seconds.
+-- Exposure time: 1824.55 ms [437892 RW-steps]
+- starting RW-PFGSE simulation (in GPU) [bc:mirror]...[12098 RW-steps]... Done.
+Cpu/Gpu elapsed time: 0.304505 s
+Noise:: Amp: 0.0001, SNR: 0.0200755
+-- Results:
+- Stejskal-Tanner (s&t) without sampling:
+points to sample: 25 where lhs: 1e-06
+D(1824.55 ms) {s&t} = 9.879[+/- 12.8789]
+in 1.9156e-05 seconds.
+- Mean squared displacement (msd) without sampling:
+D(1824.55 ms) {msd} = 0.395178
+Dxx = 0.405956, 	Dyy = 0.401133, 	Dzz = 0.378443
+in 0.00113843 seconds.
+- saving results...Ok. (0.00268647 seconds).
+-- Done in 0.404382 seconds.
+-- Exposure time: 1874.95 ms [449988 RW-steps]
+- starting RW-PFGSE simulation (in GPU) [bc:mirror]...[12096 RW-steps]... Done.
+Cpu/Gpu elapsed time: 0.402649 s
+Noise:: Amp: 0.0001, SNR: 0.0128023
+-- Results:
+- Stejskal-Tanner (s&t) without sampling:
+points to sample: 25 where lhs: 1e-06
+D(1874.95 ms) {s&t} = 5.51493[+/- 13.4958]
+in 1.8074e-05 seconds.
+- Mean squared displacement (msd) without sampling:
+D(1874.95 ms) {msd} = 0.392375
+Dxx = 0.401923, 	Dyy = 0.399046, 	Dzz = 0.376155
+in 0.00115581 seconds.
+- saving results...Ok. (0.00267537 seconds).
+-- Done in 0.494227 seconds.
+-- Exposure time: 1925.36 ms [462086 RW-steps]
+- starting RW-PFGSE simulation (in GPU) [bc:mirror]...[12098 RW-steps]... Done.
+Cpu/Gpu elapsed time: 0.3026 s
+Noise:: Amp: 0.0001, SNR: 0.00894397
+-- Results:
+- Stejskal-Tanner (s&t) without sampling:
+points to sample: 25 where lhs: 1e-06
+D(1925.36 ms) {s&t} = 13.695[+/- 16.883]
+in 1.9717e-05 seconds.
+- Mean squared displacement (msd) without sampling:
+D(1925.36 ms) {msd} = 0.389041
+Dxx = 0.399326, 	Dyy = 0.394849, 	Dzz = 0.372948
+in 0.00112791 seconds.
+- saving results...Ok. (0.00268171 seconds).
+-- Done in 0.395369 seconds.
+-- Exposure time: 1975.76 ms [474182 RW-steps]
+- starting RW-PFGSE simulation (in GPU) [bc:mirror]...[12096 RW-steps]... Done.
+Cpu/Gpu elapsed time: 0.302678 s
+Noise:: Amp: 0.0001, SNR: 0.00621933
+-- Results:
+- Stejskal-Tanner (s&t) without sampling:
+points to sample: 25 where lhs: 0.471168
+D(1975.76 ms) {s&t} = 4.55174[+/- 13.7857]
+in 3.0507e-05 seconds.
+- Mean squared displacement (msd) without sampling:
+D(1975.76 ms) {msd} = 0.385866
+Dxx = 0.395232, 	Dyy = 0.392512, 	Dzz = 0.369853
+in 0.00131127 seconds.
+- saving results...Ok. (0.0047225 seconds).
+-- Done in 0.41014 seconds.
+-- Exposure time: 2026.17 ms [486280 RW-steps]
+- starting RW-PFGSE simulation (in GPU) [bc:mirror]...[12098 RW-steps]... Done.
+Cpu/Gpu elapsed time: 0.306803 s
+Noise:: Amp: 0.0001, SNR: 0.00415277
+-- Results:
+- Stejskal-Tanner (s&t) without sampling:
+points to sample: 25 where lhs: 1e-06
+D(2026.17 ms) {s&t} = 11.4337[+/- 17.5681]
+in 1.9376e-05 seconds.
+- Mean squared displacement (msd) without sampling:
+D(2026.17 ms) {msd} = 0.38306
+Dxx = 0.391376, 	Dyy = 0.389293, 	Dzz = 0.368512
+in 0.0011303 seconds.
+- saving results...Ok. (0.00261857 seconds).
+-- Done in 0.552141 seconds.
+-- Exposure time: 2076.57 ms [498376 RW-steps]
+- starting RW-PFGSE simulation (in GPU) [bc:mirror]...[12096 RW-steps]... Done.
+Cpu/Gpu elapsed time: 0.306344 s
+Noise:: Amp: 0.0001, SNR: 0.00316997
+-- Results:
+- Stejskal-Tanner (s&t) without sampling:
+points to sample: 25 where lhs: 1e-06
+D(2076.57 ms) {s&t} = 12.84[+/- 16.9399]
+in 2.0278e-05 seconds.
+- Mean squared displacement (msd) without sampling:
+D(2076.57 ms) {msd} = 0.380125
+Dxx = 0.388198, 	Dyy = 0.386637, 	Dzz = 0.365541
+in 0.00111893 seconds.
+- saving results...Ok. (0.00274372 seconds).
+-- Done in 0.397745 seconds.
+-- Exposure time: 2126.97 ms [510474 RW-steps]
+- starting RW-PFGSE simulation (in GPU) [bc:mirror]...[12098 RW-steps]... Done.
+Cpu/Gpu elapsed time: 0.346561 s
+Noise:: Amp: 0.0001, SNR: 0.00183716
+-- Results:
+- Stejskal-Tanner (s&t) without sampling:
+points to sample: 25 where lhs: 0.126079
+D(2126.97 ms) {s&t} = 5.77771[+/- 15.0653]
+in 1.8665e-05 seconds.
+- Mean squared displacement (msd) without sampling:
+D(2126.97 ms) {msd} = 0.377506
+Dxx = 0.385589, 	Dyy = 0.383282, 	Dzz = 0.363646
+in 0.00112735 seconds.
+- saving results...Ok. (0.00267462 seconds).
+-- Done in 0.450944 seconds.
+-- Exposure time: 2177.38 ms [522570 RW-steps]
+- starting RW-PFGSE simulation (in GPU) [bc:mirror]...[12096 RW-steps]... Done.
+Cpu/Gpu elapsed time: 0.305189 s
+Noise:: Amp: 0.0001, SNR: 0.00135371
+-- Results:
+- Stejskal-Tanner (s&t) without sampling:
+points to sample: 25 where lhs: 1.07095
+D(2177.38 ms) {s&t} = 10.1868[+/- 17.1539]
+in 1.8715e-05 seconds.
+- Mean squared displacement (msd) without sampling:
+D(2177.38 ms) {msd} = 0.375176
+Dxx = 0.383649, 	Dyy = 0.381746, 	Dzz = 0.360134
+in 0.00112418 seconds.
+- saving results...Ok. (0.00260597 seconds).
+-- Done in 0.394654 seconds.
+-- Exposure time: 2227.78 ms [534668 RW-steps]
+- starting RW-PFGSE simulation (in GPU) [bc:mirror]...[12098 RW-steps]... Done.
+Cpu/Gpu elapsed time: 0.356428 s
+Noise:: Amp: 0.0001, SNR: 0.00084796
+-- Results:
+- Stejskal-Tanner (s&t) without sampling:
+points to sample: 25 where lhs: 1e-06
+D(2227.78 ms) {s&t} = 5.01874[+/- 16.4467]
+in 1.9767e-05 seconds.
+- Mean squared displacement (msd) without sampling:
+D(2227.78 ms) {msd} = 0.372817
+Dxx = 0.381339, 	Dyy = 0.379424, 	Dzz = 0.357689
+in 0.00121731 seconds.
+- saving results...Ok. (0.00255826 seconds).
+-- Done in 0.453301 seconds.
+-- Exposure time: 2278.18 ms [546764 RW-steps]
+- starting RW-PFGSE simulation (in GPU) [bc:mirror]...[12096 RW-steps]... Done.
+Cpu/Gpu elapsed time: 0.305351 s
+Noise:: Amp: 0.0001, SNR: 0.000498315
+-- Results:
+- Stejskal-Tanner (s&t) without sampling:
+points to sample: 25 where lhs: 0.0159307
+D(2278.18 ms) {s&t} = 9.65736[+/- 16.3584]
+in 1.8936e-05 seconds.
+- Mean squared displacement (msd) without sampling:
+D(2278.18 ms) {msd} = 0.370179
+Dxx = 0.378022, 	Dyy = 0.377061, 	Dzz = 0.355456
+in 0.0010874 seconds.
+- saving results...Ok. (0.00264008 seconds).
+-- Done in 0.405269 seconds.
+-- Exposure time: 2328.59 ms [558862 RW-steps]
+- starting RW-PFGSE simulation (in GPU) [bc:mirror]...[12098 RW-steps]... Done.
+Cpu/Gpu elapsed time: 0.30733 s
+Noise:: Amp: 0.0001, SNR: 0.000363261
+-- Results:
+- Stejskal-Tanner (s&t) without sampling:
+points to sample: 25 where lhs: 1e-06
+D(2328.59 ms) {s&t} = 7.42859[+/- 13.3081]
+in 2.0018e-05 seconds.
+- Mean squared displacement (msd) without sampling:
+D(2328.59 ms) {msd} = 0.368077
+Dxx = 0.376138, 	Dyy = 0.374181, 	Dzz = 0.353911
+in 0.0010693 seconds.
+- saving results...Ok. (0.00309025 seconds).
+-- Done in 0.417517 seconds.
+-- Exposure time: 2378.99 ms [570958 RW-steps]
+- starting RW-PFGSE simulation (in GPU) [bc:mirror]...[12096 RW-steps]... Done.
+Cpu/Gpu elapsed time: 0.303865 s
+Noise:: Amp: 0.0001, SNR: 0.000233672
+-- Results:
+- Stejskal-Tanner (s&t) without sampling:
+points to sample: 25 where lhs: 1e-06
+D(2378.99 ms) {s&t} = 9.54783[+/- 16.9069]
+in 2.4806e-05 seconds.
+- Mean squared displacement (msd) without sampling:
+D(2378.99 ms) {msd} = 0.365713
+Dxx = 0.373727, 	Dyy = 0.371526, 	Dzz = 0.351886
+in 0.00120727 seconds.
+- saving results...Ok. (0.00263272 seconds).
+-- Done in 0.537433 seconds.
+-- Exposure time: 2429.4 ms [583056 RW-steps]
+- starting RW-PFGSE simulation (in GPU) [bc:mirror]...[12098 RW-steps]... Done.
+Cpu/Gpu elapsed time: 0.304321 s
+Noise:: Amp: 0.0001, SNR: 0.00016002
+-- Results:
+- Stejskal-Tanner (s&t) without sampling:
+points to sample: 25 where lhs: 1.82127
+D(2429.4 ms) {s&t} = 5.00059[+/- 16.0108]
+in 1.8695e-05 seconds.
+- Mean squared displacement (msd) without sampling:
+D(2429.4 ms) {msd} = 0.363364
+Dxx = 0.370877, 	Dyy = 0.369195, 	Dzz = 0.350019
+in 0.00105912 seconds.
+- saving results...Ok. (0.00258387 seconds).
+-- Done in 0.40625 seconds.
+-- Exposure time: 2479.8 ms [595152 RW-steps]
+- starting RW-PFGSE simulation (in GPU) [bc:mirror]...[12096 RW-steps]... Done.
+Cpu/Gpu elapsed time: 0.301434 s
+Noise:: Amp: 0.0001, SNR: 0.000129033
+-- Results:
+- Stejskal-Tanner (s&t) without sampling:
+points to sample: 25 where lhs: 5.35815
+D(2479.8 ms) {s&t} = 5.34049[+/- 14.8424]
+in 2.0008e-05 seconds.
+- Mean squared displacement (msd) without sampling:
+D(2479.8 ms) {msd} = 0.361804
+Dxx = 0.369074, 	Dyy = 0.367571, 	Dzz = 0.348766
+in 0.00109053 seconds.
+- saving results...Ok. (0.00266215 seconds).
+-- Done in 0.407497 seconds.
+-- Exposure time: 2530.21 ms [607250 RW-steps]
+- starting RW-PFGSE simulation (in GPU) [bc:mirror]...[12098 RW-steps]... Done.
+Cpu/Gpu elapsed time: 0.304089 s
+Noise:: Amp: 0.0001, SNR: 7.79719e-05
+-- Results:
+- Stejskal-Tanner (s&t) without sampling:
+points to sample: 25 where lhs: 2.41501
+D(2530.21 ms) {s&t} = 7.6665[+/- 17.4197]
+in 1.9506e-05 seconds.
+- Mean squared displacement (msd) without sampling:
+D(2530.21 ms) {msd} = 0.359628
+Dxx = 0.367176, 	Dyy = 0.364848, 	Dzz = 0.34686
+in 0.0010591 seconds.
+- saving results...Ok. (0.00278802 seconds).
+-- Done in 0.406797 seconds.
+-- Exposure time: 2580.61 ms [619346 RW-steps]
+- starting RW-PFGSE simulation (in GPU) [bc:mirror]...[12096 RW-steps]... Done.
+Cpu/Gpu elapsed time: 0.304331 s
+Noise:: Amp: 0.0001, SNR: 5.81503e-05
+-- Results:
+- Stejskal-Tanner (s&t) without sampling:
+points to sample: 25 where lhs: 1e-06
+D(2580.61 ms) {s&t} = 6.59935[+/- 11.0859]
+in 1.9997e-05 seconds.
+- Mean squared displacement (msd) without sampling:
+D(2580.61 ms) {msd} = 0.357369
+Dxx = 0.364563, 	Dyy = 0.363405, 	Dzz = 0.344139
+in 0.00108598 seconds.
+- saving results...Ok. (0.00258641 seconds).
+-- Done in 0.395919 seconds.
+-- Exposure time: 2631.02 ms [631444 RW-steps]
+- starting RW-PFGSE simulation (in GPU) [bc:mirror]...[12098 RW-steps]... Done.
+Cpu/Gpu elapsed time: 0.302341 s
+Noise:: Amp: 0.0001, SNR: 3.62323e-05
+-- Results:
+- Stejskal-Tanner (s&t) without sampling:
+points to sample: 25 where lhs: 2.76649
+D(2631.02 ms) {s&t} = 6.40917[+/- 17.3864]
+in 2.0608e-05 seconds.
+- Mean squared displacement (msd) without sampling:
+D(2631.02 ms) {msd} = 0.355121
+Dxx = 0.36269, 	Dyy = 0.361238, 	Dzz = 0.341436
+in 0.00130612 seconds.
+- saving results...Ok. (0.00304022 seconds).
+-- Done in 0.541802 seconds.
+-- Exposure time: 2681.42 ms [643540 RW-steps]
+- starting RW-PFGSE simulation (in GPU) [bc:mirror]...[12096 RW-steps]... Done.
+Cpu/Gpu elapsed time: 0.310219 s
+Noise:: Amp: 0.0001, SNR: 2.84152e-05
+-- Results:
+- Stejskal-Tanner (s&t) without sampling:
+points to sample: 25 where lhs: 0.726506
+D(2681.42 ms) {s&t} = 8.01065[+/- 17.3938]
+in 1.8234e-05 seconds.
+- Mean squared displacement (msd) without sampling:
+D(2681.42 ms) {msd} = 0.353227
+Dxx = 0.360339, 	Dyy = 0.358948, 	Dzz = 0.340394
+in 0.00107315 seconds.
+- saving results...Ok. (0.00255459 seconds).
+-- Done in 0.415071 seconds.
+-- Exposure time: 2731.82 ms [655638 RW-steps]
+- starting RW-PFGSE simulation (in GPU) [bc:mirror]...[12098 RW-steps]... Done.
+Cpu/Gpu elapsed time: 0.303856 s
+Noise:: Amp: 0.0001, SNR: 2.02227e-05
+-- Results:
+- Stejskal-Tanner (s&t) without sampling:
+points to sample: 25 where lhs: 1e-06
+D(2731.82 ms) {s&t} = 7.23771[+/- 16.3983]
+in 2.4196e-05 seconds.
+- Mean squared displacement (msd) without sampling:
+D(2731.82 ms) {msd} = 0.35123
+Dxx = 0.358633, 	Dyy = 0.356423, 	Dzz = 0.338633
+in 0.0011454 seconds.
+- saving results...Ok. (0.00254126 seconds).
+-- Done in 0.396726 seconds.
+-- Exposure time: 2782.22 ms [667734 RW-steps]
+- starting RW-PFGSE simulation (in GPU) [bc:mirror]...[12096 RW-steps]... Done.
+Cpu/Gpu elapsed time: 0.302846 s
+Noise:: Amp: 0.0001, SNR: 1.21386e-05
+-- Results:
+- Stejskal-Tanner (s&t) without sampling:
+points to sample: 25 where lhs: 0.83787
+D(2782.22 ms) {s&t} = 9.28819[+/- 16.2177]
+in 1.8885e-05 seconds.
+- Mean squared displacement (msd) without sampling:
+D(2782.22 ms) {msd} = 0.349287
+Dxx = 0.356535, 	Dyy = 0.354482, 	Dzz = 0.336843
+in 0.00111734 seconds.
+- saving results...Ok. (0.00258663 seconds).
+-- Done in 0.544707 seconds.
+-- Exposure time: 2832.63 ms [679832 RW-steps]
+- starting RW-PFGSE simulation (in GPU) [bc:mirror]...[12098 RW-steps]... Done.
+Cpu/Gpu elapsed time: 0.300866 s
+Noise:: Amp: 0.0001, SNR: 9.46414e-06
+-- Results:
+- Stejskal-Tanner (s&t) without sampling:
+points to sample: 25 where lhs: 0.80842
+D(2832.63 ms) {s&t} = 4.37743[+/- 13.966]
+in 1.8264e-05 seconds.
+- Mean squared displacement (msd) without sampling:
+D(2832.63 ms) {msd} = 0.347861
+Dxx = 0.355622, 	Dyy = 0.353115, 	Dzz = 0.334847
+in 0.00108407 seconds.
+- saving results...Ok. (0.00262882 seconds).
+-- Done in 0.397662 seconds.
+-- Exposure time: 2883.03 ms [691928 RW-steps]
+- starting RW-PFGSE simulation (in GPU) [bc:mirror]...[12096 RW-steps]... Done.
+Cpu/Gpu elapsed time: 0.357267 s
+Noise:: Amp: 0.0001, SNR: 6.54016e-06
+-- Results:
+- Stejskal-Tanner (s&t) without sampling:
+points to sample: 25 where lhs: 1.01243
+D(2883.03 ms) {s&t} = 6.96819[+/- 15.2297]
+in 1.9216e-05 seconds.
+- Mean squared displacement (msd) without sampling:
+D(2883.03 ms) {msd} = 0.345779
+Dxx = 0.353873, 	Dyy = 0.350604, 	Dzz = 0.33286
+in 0.00108682 seconds.
+- saving results...Ok. (0.00279841 seconds).
+-- Done in 0.450914 seconds.
+-- Exposure time: 2933.44 ms [704026 RW-steps]
+- starting RW-PFGSE simulation (in GPU) [bc:mirror]...[12098 RW-steps]... Done.
+Cpu/Gpu elapsed time: 0.303072 s
+Noise:: Amp: 0.0001, SNR: 4.47805e-06
+-- Results:
+- Stejskal-Tanner (s&t) without sampling:
+points to sample: 25 where lhs: 0.289125
+D(2933.44 ms) {s&t} = 5.3436[+/- 17.7374]
+in 2.3394e-05 seconds.
+- Mean squared displacement (msd) without sampling:
+D(2933.44 ms) {msd} = 0.344023
+Dxx = 0.351435, 	Dyy = 0.348485, 	Dzz = 0.332149
+in 0.00109473 seconds.
+- saving results...Ok. (0.0026095 seconds).
+-- Done in 0.401364 seconds.
+-- Exposure time: 2983.84 ms [716122 RW-steps]
+- starting RW-PFGSE simulation (in GPU) [bc:mirror]...[12096 RW-steps]... Done.
+Cpu/Gpu elapsed time: 0.358063 s
+Noise:: Amp: 0.0001, SNR: 2.97273e-06
+-- Results:
+- Stejskal-Tanner (s&t) without sampling:
+points to sample: 25 where lhs: 1e-06
+D(2983.84 ms) {s&t} = 5.88015[+/- 17.1602]
+in 2.3414e-05 seconds.
+- Mean squared displacement (msd) without sampling:
+D(2983.84 ms) {msd} = 0.342038
+Dxx = 0.349429, 	Dyy = 0.34575, 	Dzz = 0.330935
+in 0.00112144 seconds.
+- saving results...Ok. (0.00275214 seconds).
+-- Done in 0.457046 seconds.
+-- Exposure time: 3034.25 ms [728220 RW-steps]
+- starting RW-PFGSE simulation (in GPU) [bc:mirror]...[12098 RW-steps]... Done.
+Cpu/Gpu elapsed time: 0.314807 s
+Noise:: Amp: 0.0001, SNR: 2.03163e-06
+-- Results:
+- Stejskal-Tanner (s&t) without sampling:
+points to sample: 25 where lhs: 0.122686
+D(3034.25 ms) {s&t} = 8.00649[+/- 16.1731]
+in 1.9396e-05 seconds.
+- Mean squared displacement (msd) without sampling:
+D(3034.25 ms) {msd} = 0.340033
+Dxx = 0.347547, 	Dyy = 0.343715, 	Dzz = 0.328836
+in 0.00117158 seconds.
+- saving results...Ok. (0.00278405 seconds).
+-- Done in 0.404886 seconds.
+-- Exposure time: 3084.65 ms [740316 RW-steps]
+- starting RW-PFGSE simulation (in GPU) [bc:mirror]...[12096 RW-steps]... Done.
+Cpu/Gpu elapsed time: 0.300615 s
+Noise:: Amp: 0.0001, SNR: 1.64048e-06
+-- Results:
+- Stejskal-Tanner (s&t) without sampling:
+points to sample: 25 where lhs: 3.08752
+D(3084.65 ms) {s&t} = 5.03145[+/- 18.7308]
+in 3.6148e-05 seconds.
+- Mean squared displacement (msd) without sampling:
+D(3084.65 ms) {msd} = 0.338563
+Dxx = 0.346151, 	Dyy = 0.342267, 	Dzz = 0.32727
+in 0.00146104 seconds.
+- saving results...Ok. (0.00404903 seconds).
+-- Done in 0.398411 seconds.
+-- Exposure time: 3135.06 ms [752414 RW-steps]
+- starting RW-PFGSE simulation (in GPU) [bc:mirror]...[12098 RW-steps]... Done.
+Cpu/Gpu elapsed time: 0.306322 s
+Noise:: Amp: 0.0001, SNR: 9.78474e-07
+-- Results:
+- Stejskal-Tanner (s&t) without sampling:
+points to sample: 25 where lhs: 0.586216
+D(3135.06 ms) {s&t} = 5.56608[+/- 18.0337]
+in 2.4085e-05 seconds.
+- Mean squared displacement (msd) without sampling:
+D(3135.06 ms) {msd} = 0.337325
+Dxx = 0.344894, 	Dyy = 0.341253, 	Dzz = 0.325827
+in 0.00110404 seconds.
+- saving results...Ok. (0.00266353 seconds).
+-- Done in 0.550225 seconds.
+-- Exposure time: 3185.46 ms [764510 RW-steps]
+- starting RW-PFGSE simulation (in GPU) [bc:mirror]...[12096 RW-steps]... Done.
+Cpu/Gpu elapsed time: 0.302884 s
+Noise:: Amp: 0.0001, SNR: 7.16041e-07
+-- Results:
+- Stejskal-Tanner (s&t) without sampling:
+points to sample: 25 where lhs: 0.849298
+D(3185.46 ms) {s&t} = 5.19752[+/- 17.7675]
+in 2.3915e-05 seconds.
+- Mean squared displacement (msd) without sampling:
+D(3185.46 ms) {msd} = 0.335348
+Dxx = 0.343203, 	Dyy = 0.33929, 	Dzz = 0.32355
+in 0.00109271 seconds.
+- saving results...Ok. (0.00270178 seconds).
+-- Done in 0.398813 seconds.
+-- Exposure time: 3235.87 ms [776608 RW-steps]
+- starting RW-PFGSE simulation (in GPU) [bc:mirror]...[12098 RW-steps]... Done.
+Cpu/Gpu elapsed time: 0.305741 s
+Noise:: Amp: 0.0001, SNR: 3.9901e-07
+-- Results:
+- Stejskal-Tanner (s&t) without sampling:
+points to sample: 25 where lhs: 1e-06
+D(3235.87 ms) {s&t} = 5.87102[+/- 15.7619]
+in 1.9326e-05 seconds.
+- Mean squared displacement (msd) without sampling:
+D(3235.87 ms) {msd} = 0.333749
+Dxx = 0.342782, 	Dyy = 0.33746, 	Dzz = 0.321004
+in 0.00108096 seconds.
+- saving results...Ok. (0.0027851 seconds).
+-- Done in 0.400731 seconds.
+-- Exposure time: 3286.27 ms [788704 RW-steps]
+- starting RW-PFGSE simulation (in GPU) [bc:mirror]...[12096 RW-steps]... Done.
+Cpu/Gpu elapsed time: 0.305115 s
+Noise:: Amp: 0.0001, SNR: 2.65407e-07
+-- Results:
+- Stejskal-Tanner (s&t) without sampling:
+points to sample: 25 where lhs: 1e-06
+D(3286.27 ms) {s&t} = 8.09132[+/- 16.8158]
+in 1.9036e-05 seconds.
+- Mean squared displacement (msd) without sampling:
+D(3286.27 ms) {msd} = 0.332514
+Dxx = 0.341516, 	Dyy = 0.336191, 	Dzz = 0.319836
+in 0.00107906 seconds.
+- saving results...Ok. (0.00270437 seconds).
+-- Done in 0.393713 seconds.
+-- Exposure time: 3336.67 ms [800800 RW-steps]
+- starting RW-PFGSE simulation (in GPU) [bc:mirror]...[12096 RW-steps]... Done.
+Cpu/Gpu elapsed time: 0.399036 s
+Noise:: Amp: 0.0001, SNR: 1.99776e-07
+-- Results:
+- Stejskal-Tanner (s&t) without sampling:
+points to sample: 25 where lhs: 1e-06
+D(3336.67 ms) {s&t} = 6.54206[+/- 15.3969]
+in 1.8915e-05 seconds.
+- Mean squared displacement (msd) without sampling:
+D(3336.67 ms) {msd} = 0.331059
+Dxx = 0.340753, 	Dyy = 0.334254, 	Dzz = 0.318169
+in 0.00113639 seconds.
+- saving results...Ok. (0.00275638 seconds).
+-- Done in 0.494288 seconds.
+-- Exposure time: 3387.07 ms [812898 RW-steps]
+- starting RW-PFGSE simulation (in GPU) [bc:mirror]...[12098 RW-steps]... Done.
+Cpu/Gpu elapsed time: 0.309794 s
+Noise:: Amp: 0.0001, SNR: 1.50785e-07
+-- Results:
+- Stejskal-Tanner (s&t) without sampling:
+points to sample: 25 where lhs: 1e-06
+D(3387.07 ms) {s&t} = 5.34901[+/- 15.1023]
+in 1.9847e-05 seconds.
+- Mean squared displacement (msd) without sampling:
+D(3387.07 ms) {msd} = 0.329625
+Dxx = 0.339308, 	Dyy = 0.33257, 	Dzz = 0.316998
+in 0.00109979 seconds.
+- saving results...Ok. (0.0028124 seconds).
+-- Done in 0.409567 seconds.
+-- Exposure time: 3437.47 ms [824994 RW-steps]
+- starting RW-PFGSE simulation (in GPU) [bc:mirror]...[12096 RW-steps]... Done.
+Cpu/Gpu elapsed time: 0.300806 s
+Noise:: Amp: 0.0001, SNR: 9.12722e-08
+-- Results:
+- Stejskal-Tanner (s&t) without sampling:
+points to sample: 25 where lhs: 1e-06
+D(3437.47 ms) {s&t} = 7.56938[+/- 15.1983]
+in 1.8565e-05 seconds.
+- Mean squared displacement (msd) without sampling:
+D(3437.47 ms) {msd} = 0.328088
+Dxx = 0.337134, 	Dyy = 0.331494, 	Dzz = 0.315636
+in 0.00110202 seconds.
+- saving results...Ok. (0.00386109 seconds).
+-- Done in 0.398619 seconds.
+-- Exposure time: 3487.88 ms [837092 RW-steps]
+- starting RW-PFGSE simulation (in GPU) [bc:mirror]...[12098 RW-steps]... Done.
+Cpu/Gpu elapsed time: 0.300701 s
+Noise:: Amp: 0.0001, SNR: 6.14489e-08
+-- Results:
+- Stejskal-Tanner (s&t) without sampling:
+points to sample: 25 where lhs: 1.18471
+D(3487.88 ms) {s&t} = 3.14813[+/- 16.3048]
+in 1.8895e-05 seconds.
+- Mean squared displacement (msd) without sampling:
+D(3487.88 ms) {msd} = 0.326747
+Dxx = 0.336624, 	Dyy = 0.329543, 	Dzz = 0.314072
+in 0.00113303 seconds.
+- saving results...Ok. (0.00257675 seconds).
+-- Done in 0.543433 seconds.
+-- Exposure time: 3538.28 ms [849188 RW-steps]
+- starting RW-PFGSE simulation (in GPU) [bc:mirror]...[12096 RW-steps]... Done.
+Cpu/Gpu elapsed time: 0.303007 s
+Noise:: Amp: 0.0001, SNR: 4.24443e-08
+-- Results:
+- Stejskal-Tanner (s&t) without sampling:
+points to sample: 25 where lhs: 1e-06
+D(3538.28 ms) {s&t} = 4.52758[+/- 19.5302]
+in 1.9306e-05 seconds.
+- Mean squared displacement (msd) without sampling:
+D(3538.28 ms) {msd} = 0.325358
+Dxx = 0.334958, 	Dyy = 0.328574, 	Dzz = 0.312541
+in 0.00109727 seconds.
+- saving results...Ok. (0.00320331 seconds).
+-- Done in 0.401115 seconds.
+-- Exposure time: 3588.69 ms [861286 RW-steps]
+- starting RW-PFGSE simulation (in GPU) [bc:mirror]...[12098 RW-steps]... Done.
+Cpu/Gpu elapsed time: 0.310662 s
+Noise:: Amp: 0.0001, SNR: 2.55231e-08
+-- Results:
+- Stejskal-Tanner (s&t) without sampling:
+points to sample: 25 where lhs: 0.201219
+D(3588.69 ms) {s&t} = 4.89778[+/- 16.2466]
+in 1.8836e-05 seconds.
+- Mean squared displacement (msd) without sampling:
+D(3588.69 ms) {msd} = 0.324345
+Dxx = 0.333356, 	Dyy = 0.327721, 	Dzz = 0.311957
+in 0.00109263 seconds.
+- saving results...Ok. (0.00280181 seconds).
+-- Done in 0.409358 seconds.
+-- Exposure time: 3639.09 ms [873382 RW-steps]
+- starting RW-PFGSE simulation (in GPU) [bc:mirror]...[12096 RW-steps]... Done.
+Cpu/Gpu elapsed time: 0.304765 s
+Noise:: Amp: 0.0001, SNR: 1.70337e-08
+-- Results:
+- Stejskal-Tanner (s&t) without sampling:
+points to sample: 25 where lhs: 1e-06
+D(3639.09 ms) {s&t} = 6.36781[+/- 17.5439]
+in 1.9106e-05 seconds.
+- Mean squared displacement (msd) without sampling:
+D(3639.09 ms) {msd} = 0.322949
+Dxx = 0.33211, 	Dyy = 0.32636, 	Dzz = 0.310377
+in 0.00107882 seconds.
+- saving results...Ok. (0.00283716 seconds).
+-- Done in 0.408479 seconds.
+-- Exposure time: 3689.5 ms [885480 RW-steps]
+- starting RW-PFGSE simulation (in GPU) [bc:mirror]...[12098 RW-steps]... Done.
+Cpu/Gpu elapsed time: 0.383223 s
+Noise:: Amp: 0.0001, SNR: 9.25719e-09
+-- Results:
+- Stejskal-Tanner (s&t) without sampling:
+points to sample: 25 where lhs: 2.20461
+D(3689.5 ms) {s&t} = 3.04123[+/- 15.3029]
+in 2.0699e-05 seconds.
+- Mean squared displacement (msd) without sampling:
+D(3689.5 ms) {msd} = 0.321547
+Dxx = 0.33093, 	Dyy = 0.325484, 	Dzz = 0.308228
+in 0.00113017 seconds.
+- saving results...Ok. (0.00400268 seconds).
+-- Done in 0.483503 seconds.
+-- Exposure time: 3739.9 ms [897576 RW-steps]
+- starting RW-PFGSE simulation (in GPU) [bc:mirror]...[12096 RW-steps]... Done.
+Cpu/Gpu elapsed time: 0.30399 s
+Noise:: Amp: 0.0001, SNR: 7.13867e-09
+-- Results:
+- Stejskal-Tanner (s&t) without sampling:
+points to sample: 25 where lhs: 1e-06
+D(3739.9 ms) {s&t} = 3.97119[+/- 16.2557]
+in 1.9717e-05 seconds.
+- Mean squared displacement (msd) without sampling:
+D(3739.9 ms) {msd} = 0.320171
+Dxx = 0.329324, 	Dyy = 0.323618, 	Dzz = 0.307573
+in 0.0011231 seconds.
+- saving results...Ok. (0.00274372 seconds).
+-- Done in 0.399327 seconds.
+-- Exposure time: 3790.31 ms [909674 RW-steps]
+- starting RW-PFGSE simulation (in GPU) [bc:mirror]...[12098 RW-steps]... Done.
+Cpu/Gpu elapsed time: 0.299016 s
+Noise:: Amp: 0.0001, SNR: 4.5381e-09
+-- Results:
+- Stejskal-Tanner (s&t) without sampling:
+points to sample: 25 where lhs: 1e-06
+D(3790.31 ms) {s&t} = 4.62341[+/- 14.3511]
+in 3.1699e-05 seconds.
+- Mean squared displacement (msd) without sampling:
+D(3790.31 ms) {msd} = 0.318795
+Dxx = 0.32795, 	Dyy = 0.322224, 	Dzz = 0.30621
+in 0.00130372 seconds.
+- saving results...Ok. (0.00476427 seconds).
+-- Done in 0.409776 seconds.
+-- Exposure time: 3840.71 ms [921770 RW-steps]
+- starting RW-PFGSE simulation (in GPU) [bc:mirror]...[12096 RW-steps]... Done.
+Cpu/Gpu elapsed time: 0.304393 s
+Noise:: Amp: 0.0001, SNR: 2.84172e-09
+-- Results:
+- Stejskal-Tanner (s&t) without sampling:
+points to sample: 25 where lhs: 1e-06
+D(3840.71 ms) {s&t} = 5.50378[+/- 15.7116]
+in 2.8153e-05 seconds.
+- Mean squared displacement (msd) without sampling:
+D(3840.71 ms) {msd} = 0.317444
+Dxx = 0.326939, 	Dyy = 0.320633, 	Dzz = 0.304759
+in 0.00160141 seconds.
+- saving results...Ok. (0.00266745 seconds).
+-- Done in 0.542191 seconds.
+-- Exposure time: 3891.12 ms [933868 RW-steps]
+- starting RW-PFGSE simulation (in GPU) [bc:mirror]...[12098 RW-steps]... Done.
+Cpu/Gpu elapsed time: 0.300536 s
+Noise:: Amp: 0.0001, SNR: 1.74231e-09
+-- Results:
+- Stejskal-Tanner (s&t) without sampling:
+points to sample: 25 where lhs: 1e-06
+D(3891.12 ms) {s&t} = 4.49673[+/- 13.2802]
+in 1.9376e-05 seconds.
+- Mean squared displacement (msd) without sampling:
+D(3891.12 ms) {msd} = 0.316259
+Dxx = 0.324926, 	Dyy = 0.319903, 	Dzz = 0.303948
+in 0.00108894 seconds.
+- saving results...Ok. (0.00273738 seconds).
+-- Done in 0.393951 seconds.
+-- Exposure time: 3941.52 ms [945964 RW-steps]
+- starting RW-PFGSE simulation (in GPU) [bc:mirror]...[12096 RW-steps]... Done.
+Cpu/Gpu elapsed time: 0.393843 s
+Noise:: Amp: 0.0001, SNR: 1.30354e-09
+-- Results:
+- Stejskal-Tanner (s&t) without sampling:
+points to sample: 25 where lhs: 0.777189
+D(3941.52 ms) {s&t} = 4.671[+/- 16.853]
+in 1.8715e-05 seconds.
+- Mean squared displacement (msd) without sampling:
+D(3941.52 ms) {msd} = 0.315109
+Dxx = 0.323367, 	Dyy = 0.319181, 	Dzz = 0.302778
+in 0.00117781 seconds.
+- saving results...Ok. (0.00277773 seconds).
+-- Done in 0.494493 seconds.
+-- Exposure time: 3991.92 ms [958062 RW-steps]
+- starting RW-PFGSE simulation (in GPU) [bc:mirror]...[12098 RW-steps]... Done.
+Cpu/Gpu elapsed time: 0.306054 s
+Noise:: Amp: 0.0001, SNR: 8.59301e-10
+-- Results:
+- Stejskal-Tanner (s&t) without sampling:
+points to sample: 25 where lhs: 1e-06
+D(3991.92 ms) {s&t} = 5.10467[+/- 17.9545]
+in 1.9266e-05 seconds.
+- Mean squared displacement (msd) without sampling:
+D(3991.92 ms) {msd} = 0.314132
+Dxx = 0.322521, 	Dyy = 0.317721, 	Dzz = 0.302154
+in 0.00114037 seconds.
+- saving results...Ok. (0.00276287 seconds).
+-- Done in 0.395957 seconds.
+-- Exposure time: 4042.32 ms [970158 RW-steps]
+- starting RW-PFGSE simulation (in GPU) [bc:mirror]...[12096 RW-steps]... Done.
+Cpu/Gpu elapsed time: 0.31002 s
+Noise:: Amp: 0.0001, SNR: 5.37375e-10
+-- Results:
+- Stejskal-Tanner (s&t) without sampling:
+points to sample: 25 where lhs: 0.183758
+D(4042.32 ms) {s&t} = 5.0957[+/- 16.0918]
+in 2.0959e-05 seconds.
+- Mean squared displacement (msd) without sampling:
+D(4042.32 ms) {msd} = 0.31297
+Dxx = 0.321206, 	Dyy = 0.31672, 	Dzz = 0.300984
+in 0.00121731 seconds.
+- saving results...Ok. (0.00276726 seconds).
+-- Done in 0.403425 seconds.
+-- Exposure time: 4092.73 ms [982256 RW-steps]
+- starting RW-PFGSE simulation (in GPU) [bc:mirror]...[12098 RW-steps]... Done.
+Cpu/Gpu elapsed time: 0.302187 s
+Noise:: Amp: 0.0001, SNR: 5.46433e-10
+-- Results:
+- Stejskal-Tanner (s&t) without sampling:
+points to sample: 25 where lhs: 0.43116
+D(4092.73 ms) {s&t} = 3.92391[+/- 15.9257]
+in 1.9988e-05 seconds.
+- Mean squared displacement (msd) without sampling:
+D(4092.73 ms) {msd} = 0.311598
+Dxx = 0.319331, 	Dyy = 0.315659, 	Dzz = 0.299804
+in 0.00119583 seconds.
+- saving results...Ok. (0.00276979 seconds).
+-- Done in 0.402205 seconds.
+-- Exposure time: 4143.13 ms [994352 RW-steps]
+- starting RW-PFGSE simulation (in GPU) [bc:mirror]...[12096 RW-steps]... Done.
+Cpu/Gpu elapsed time: 0.298557 s
+Noise:: Amp: 0.0001, SNR: 3.19677e-10
+-- Results:
+- Stejskal-Tanner (s&t) without sampling:
+points to sample: 25 where lhs: 1e-06
+D(4143.13 ms) {s&t} = 5.60901[+/- 14.7404]
+in 3.4204e-05 seconds.
+- Mean squared displacement (msd) without sampling:
+D(4143.13 ms) {msd} = 0.310539
+Dxx = 0.317915, 	Dyy = 0.315394, 	Dzz = 0.298308
+in 0.00142456 seconds.
+- saving results...Ok. (0.00583956 seconds).
+-- Done in 0.401769 seconds.
+-- Exposure time: 4193.54 ms [1006450 RW-steps]
+- starting RW-PFGSE simulation (in GPU) [bc:mirror]...[12098 RW-steps]... Done.
+Cpu/Gpu elapsed time: 0.305556 s
+Noise:: Amp: 0.0001, SNR: 2.14452e-10
+-- Results:
+- Stejskal-Tanner (s&t) without sampling:
+points to sample: 25 where lhs: 1e-06
+D(4193.54 ms) {s&t} = 4.02076[+/- 17.3598]
+in 1.9407e-05 seconds.
+- Mean squared displacement (msd) without sampling:
+D(4193.54 ms) {msd} = 0.309327
+Dxx = 0.316155, 	Dyy = 0.314293, 	Dzz = 0.297533
+in 0.00106565 seconds.
+- saving results...Ok. (0.00274713 seconds).
+-- Done in 0.541132 seconds.
+-- Exposure time: 4243.94 ms [1018546 RW-steps]
+- starting RW-PFGSE simulation (in GPU) [bc:mirror]...[12096 RW-steps]... Done.
+Cpu/Gpu elapsed time: 0.302081 s
+Noise:: Amp: 0.0001, SNR: 1.64855e-10
+-- Results:
+- Stejskal-Tanner (s&t) without sampling:
+points to sample: 25 where lhs: 2.40256
+D(4243.94 ms) {s&t} = 4.26109[+/- 16.9311]
+in 1.9166e-05 seconds.
+- Mean squared displacement (msd) without sampling:
+D(4243.94 ms) {msd} = 0.307892
+Dxx = 0.315465, 	Dyy = 0.31267, 	Dzz = 0.295541
+in 0.00106486 seconds.
+- saving results...Ok. (0.00274312 seconds).
+-- Done in 0.395956 seconds.
+-- Exposure time: 4294.35 ms [1030644 RW-steps]
+- starting RW-PFGSE simulation (in GPU) [bc:mirror]...[12098 RW-steps]... Done.
+Cpu/Gpu elapsed time: 0.387975 s
+Noise:: Amp: 0.0001, SNR: 1.07924e-10
+-- Results:
+- Stejskal-Tanner (s&t) without sampling:
+points to sample: 25 where lhs: 0.0226118
+D(4294.35 ms) {s&t} = 5.2054[+/- 17.1214]
+in 2.0368e-05 seconds.
+- Mean squared displacement (msd) without sampling:
+D(4294.35 ms) {msd} = 0.307149
+Dxx = 0.3142, 	Dyy = 0.31183, 	Dzz = 0.295417
+in 0.00105345 seconds.
+- saving results...Ok. (0.0025775 seconds).
+-- Done in 0.487345 seconds.
+-- Exposure time: 4344.75 ms [1042740 RW-steps]
+- starting RW-PFGSE simulation (in GPU) [bc:mirror]...[12096 RW-steps]... Done.
+Cpu/Gpu elapsed time: 0.304311 s
+Noise:: Amp: 0.0001, SNR: 6.5235e-11
+-- Results:
+- Stejskal-Tanner (s&t) without sampling:
+points to sample: 25 where lhs: 27.0293
+D(4344.75 ms) {s&t} = 0.114047[+/- 16.2187]
+in 1.9046e-05 seconds.
+- Mean squared displacement (msd) without sampling:
+D(4344.75 ms) {msd} = 0.306272
+Dxx = 0.313506, 	Dyy = 0.310895, 	Dzz = 0.294416
+in 0.00107462 seconds.
+- saving results...Ok. (0.00271601 seconds).
+-- Done in 0.40445 seconds.
+-- Exposure time: 4395.16 ms [1054838 RW-steps]
+- starting RW-PFGSE simulation (in GPU) [bc:mirror]...[12098 RW-steps]... Done.
+Cpu/Gpu elapsed time: 0.391188 s
+Noise:: Amp: 0.0001, SNR: 5.21972e-11
+-- Results:
+- Stejskal-Tanner (s&t) without sampling:
+points to sample: 25 where lhs: 1e-06
+D(4395.16 ms) {s&t} = 6.75835[+/- 14.9178]
+in 1.9627e-05 seconds.
+- Mean squared displacement (msd) without sampling:
+D(4395.16 ms) {msd} = 0.304935
+Dxx = 0.311555, 	Dyy = 0.310231, 	Dzz = 0.29302
+in 0.00108205 seconds.
+- saving results...Ok. (0.00267966 seconds).
+-- Done in 0.48586 seconds.
+-- Exposure time: 4445.56 ms [1066934 RW-steps]
+- starting RW-PFGSE simulation (in GPU) [bc:mirror]...[12096 RW-steps]... Done.
+Cpu/Gpu elapsed time: 0.304514 s
+Noise:: Amp: 0.0001, SNR: 3.15453e-11
+-- Results:
+- Stejskal-Tanner (s&t) without sampling:
+points to sample: 25 where lhs: 1e-06
+D(4445.56 ms) {s&t} = 4.69416[+/- 14.8314]
+in 1.9577e-05 seconds.
+- Mean squared displacement (msd) without sampling:
+D(4445.56 ms) {msd} = 0.304077
+Dxx = 0.311054, 	Dyy = 0.308408, 	Dzz = 0.292768
+in 0.00109769 seconds.
+- saving results...Ok. (0.00279591 seconds).
+-- Done in 0.395758 seconds.
+-- Exposure time: 4495.97 ms [1079032 RW-steps]
+- starting RW-PFGSE simulation (in GPU) [bc:mirror]...[12098 RW-steps]... Done.
+Cpu/Gpu elapsed time: 0.303895 s
+Noise:: Amp: 0.0001, SNR: 2.28414e-11
+-- Results:
+- Stejskal-Tanner (s&t) without sampling:
+points to sample: 25 where lhs: 0.496929
+D(4495.97 ms) {s&t} = 4.72255[+/- 17.5321]
+in 2.0849e-05 seconds.
+- Mean squared displacement (msd) without sampling:
+D(4495.97 ms) {msd} = 0.30282
+Dxx = 0.309739, 	Dyy = 0.307414, 	Dzz = 0.291308
+in 0.00124672 seconds.
+- saving results...Ok. (0.00260008 seconds).
+-- Done in 0.537716 seconds.
+-- Exposure time: 4546.37 ms [1091128 RW-steps]
+- starting RW-PFGSE simulation (in GPU) [bc:mirror]...[12096 RW-steps]... Done.
+Cpu/Gpu elapsed time: 0.312726 s
+Noise:: Amp: 0.0001, SNR: 2.54098e-11
+-- Results:
+- Stejskal-Tanner (s&t) without sampling:
+points to sample: 25 where lhs: 1e-06
+D(4546.37 ms) {s&t} = 1.87904[+/- 17.1626]
+in 1.9657e-05 seconds.
+- Mean squared displacement (msd) without sampling:
+D(4546.37 ms) {msd} = 0.301884
+Dxx = 0.308587, 	Dyy = 0.306699, 	Dzz = 0.290367
+in 0.00120347 seconds.
+- saving results...Ok. (0.00270941 seconds).
+-- Done in 0.402956 seconds.
+-- Exposure time: 4596.77 ms [1103226 RW-steps]
+- starting RW-PFGSE simulation (in GPU) [bc:mirror]...[12098 RW-steps]... Done.
+Cpu/Gpu elapsed time: 0.299269 s
+Noise:: Amp: 0.0001, SNR: 1.32233e-11
+-- Results:
+- Stejskal-Tanner (s&t) without sampling:
+points to sample: 25 where lhs: 13.1378
+D(4596.77 ms) {s&t} = 1.60925[+/- 16.2237]
+in 1.9226e-05 seconds.
+- Mean squared displacement (msd) without sampling:
+D(4596.77 ms) {msd} = 0.300976
+Dxx = 0.308014, 	Dyy = 0.305877, 	Dzz = 0.289037
+in 0.00106267 seconds.
+- saving results...Ok. (0.00279569 seconds).
+-- Done in 0.388762 seconds.
+-- Exposure time: 4647.18 ms [1115322 RW-steps]
+- starting RW-PFGSE simulation (in GPU) [bc:mirror]...[12096 RW-steps]... Done.
+Cpu/Gpu elapsed time: 0.349504 s
+Noise:: Amp: 0.0001, SNR: 9.39385e-12
+-- Results:
+- Stejskal-Tanner (s&t) without sampling:
+points to sample: 25 where lhs: 1e-06
+D(4647.18 ms) {s&t} = 3.09615[+/- 16.3383]
+in 1.8795e-05 seconds.
+- Mean squared displacement (msd) without sampling:
+D(4647.18 ms) {msd} = 0.299839
+Dxx = 0.306968, 	Dyy = 0.304245, 	Dzz = 0.288303
+in 0.00135381 seconds.
+- saving results...Ok. (0.00457669 seconds).
+-- Done in 0.546002 seconds.
+-- Exposure time: 4697.58 ms [1127420 RW-steps]
+- starting RW-PFGSE simulation (in GPU) [bc:mirror]...[12098 RW-steps]... Done.
+Cpu/Gpu elapsed time: 0.302603 s
+Noise:: Amp: 0.0001, SNR: 6.19799e-12
+-- Results:
+- Stejskal-Tanner (s&t) without sampling:
+points to sample: 25 where lhs: 0.682455
+D(4697.58 ms) {s&t} = 3.06145[+/- 12.2458]
+in 1.8595e-05 seconds.
+- Mean squared displacement (msd) without sampling:
+D(4697.58 ms) {msd} = 0.298984
+Dxx = 0.306185, 	Dyy = 0.303067, 	Dzz = 0.287701
+in 0.00107881 seconds.
+- saving results...Ok. (0.00279445 seconds).
+-- Done in 0.407667 seconds.
+-- Exposure time: 4747.98 ms [1139516 RW-steps]
+- starting RW-PFGSE simulation (in GPU) [bc:mirror]...[12096 RW-steps]... Done.
+Cpu/Gpu elapsed time: 0.307451 s
+Noise:: Amp: 0.0001, SNR: 5.6346e-12
+-- Results:
+- Stejskal-Tanner (s&t) without sampling:
+points to sample: 25 where lhs: 2.86151
+D(4747.98 ms) {s&t} = 3.5649[+/- 18.221]
+in 2.3133e-05 seconds.
+- Mean squared displacement (msd) without sampling:
+D(4747.98 ms) {msd} = 0.29803
+Dxx = 0.305707, 	Dyy = 0.301538, 	Dzz = 0.286845
+in 0.00109443 seconds.
+- saving results...Ok. (0.00275238 seconds).
+-- Done in 0.402163 seconds.
+-- Exposure time: 4798.39 ms [1151614 RW-steps]
+- starting RW-PFGSE simulation (in GPU) [bc:mirror]...[12098 RW-steps]... Done.
+Cpu/Gpu elapsed time: 0.305336 s
+Noise:: Amp: 0.0001, SNR: 3.89814e-12
+-- Results:
+- Stejskal-Tanner (s&t) without sampling:
+points to sample: 25 where lhs: 1e-06
+D(4798.39 ms) {s&t} = 3.81763[+/- 17.1412]
+in 1.9467e-05 seconds.
+- Mean squared displacement (msd) without sampling:
+D(4798.39 ms) {msd} = 0.297476
+Dxx = 0.304683, 	Dyy = 0.301278, 	Dzz = 0.286466
+in 0.0010873 seconds.
+- saving results...Ok. (0.0027047 seconds).
+-- Done in 0.405688 seconds.
+-- Exposure time: 4848.79 ms [1163710 RW-steps]
+- starting RW-PFGSE simulation (in GPU) [bc:mirror]...[12096 RW-steps]... Done.
+Cpu/Gpu elapsed time: 0.397007 s
+Noise:: Amp: 0.0001, SNR: 2.80331e-12
+-- Results:
+- Stejskal-Tanner (s&t) without sampling:
+points to sample: 25 where lhs: 1e-06
+D(4848.79 ms) {s&t} = 3.40794[+/- 14.695]
+in 1.9948e-05 seconds.
+- Mean squared displacement (msd) without sampling:
+D(4848.79 ms) {msd} = 0.296718
+Dxx = 0.303767, 	Dyy = 0.300742, 	Dzz = 0.285647
+in 0.00134879 seconds.
+- saving results...Ok. (0.00261178 seconds).
+-- Done in 0.487803 seconds.
+-- Exposure time: 4899.2 ms [1175808 RW-steps]
+- starting RW-PFGSE simulation (in GPU) [bc:mirror]...[12098 RW-steps]... Done.
+Cpu/Gpu elapsed time: 0.302796 s
+Noise:: Amp: 0.0001, SNR: 2.51672e-12
+-- Results:
+- Stejskal-Tanner (s&t) without sampling:
+points to sample: 25 where lhs: 3.85516
+D(4899.2 ms) {s&t} = 2.16275[+/- 15.7315]
+in 1.9025e-05 seconds.
+- Mean squared displacement (msd) without sampling:
+D(4899.2 ms) {msd} = 0.295727
+Dxx = 0.302511, 	Dyy = 0.299899, 	Dzz = 0.284772
+in 0.0012276 seconds.
+- saving results...Ok. (0.00271049 seconds).
+-- Done in 0.399658 seconds.
+-- Exposure time: 4949.6 ms [1187904 RW-steps]
+- starting RW-PFGSE simulation (in GPU) [bc:mirror]...[12096 RW-steps]... Done.
+Cpu/Gpu elapsed time: 0.300973 s
+Noise:: Amp: 0.0001, SNR: 2.01805e-12
+-- Results:
+- Stejskal-Tanner (s&t) without sampling:
+points to sample: 25 where lhs: 1e-06
+D(4949.6 ms) {s&t} = 4.73409[+/- 17.4355]
+in 1.8615e-05 seconds.
+- Mean squared displacement (msd) without sampling:
+D(4949.6 ms) {msd} = 0.295277
+Dxx = 0.302217, 	Dyy = 0.29905, 	Dzz = 0.284563
+in 0.00114193 seconds.
+- saving results...Ok. (0.00273269 seconds).
+-- Done in 0.403813 seconds.
+-- Exposure time: 5000 ms [1200000 RW-steps]
+- starting RW-PFGSE simulation (in GPU) [bc:mirror]...[12096 RW-steps]... Done.
+Cpu/Gpu elapsed time: 0.302561 s
+Noise:: Amp: 0.0001, SNR: 1.46319e-12
+-- Results:
+- Stejskal-Tanner (s&t) without sampling:
+points to sample: 25 where lhs: 1e-06
+D(5000 ms) {s&t} = 4.14803[+/- 17.7365]
+in 3.1058e-05 seconds.
+- Mean squared displacement (msd) without sampling:
+D(5000 ms) {msd} = 0.294524
+Dxx = 0.301343, 	Dyy = 0.2982, 	Dzz = 0.284028
+in 0.00130805 seconds.
+- saving results...Ok. (0.0048405 seconds).
+-- Done in 0.551597 seconds.
+pfgse_time: 43.7175 seconds.
+- pfgse sequence executed succesfully
+Simulation model object destroyed.
