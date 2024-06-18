@@ -1,0 +1,9 @@
+image path: /home/lablcc/Documents/matheus/image-rev/revs/protocol_2/rev_IH_BIN_rm=center_rs=1/imgs/rev_IH_BIN_000.png
+width(x): 600
+height(y): 600
+depth(z): 600
+resolution: 1.5
+voxel shift: 4
+step length: 0.375
+porosity: 0.0309048
+SVp: 0.33571

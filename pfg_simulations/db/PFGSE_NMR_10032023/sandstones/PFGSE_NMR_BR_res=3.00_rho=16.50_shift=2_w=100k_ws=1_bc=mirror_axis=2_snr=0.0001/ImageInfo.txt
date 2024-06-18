@@ -1,0 +1,9 @@
+image path: /home/lablcc/Documents/matheus/image-rev/revs/protocol_3/rev_BR_WEKA_rm=center_rs=1/imgs/rev_BR_WEKA_000.png
+width(x): 600
+height(y): 600
+depth(z): 600
+resolution: 3
+voxel shift: 4
+step length: 0.75
+porosity: 0.163915
+SVp: 0.0921076

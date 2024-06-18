@@ -1,0 +1,14 @@
+------------------------------------------------------
+>>> RWNMR SIMULATION PARAMETERS: PFGSE_NMR_CA_res=5.00_rho=20.0_shift=3_w=1M_ws=1_bc=mirror_axis=2_snr=0.0001
+------------------------------------------------------
+Data path: /home/lablcc/Documents/matheus/cpp-rwnmr/src/.././db/PFGSE_NMR_CA_res=5.00_rho=20.0_shift=3_w=1M_ws=1_bc=mirror_axis=2_snr=0.0001
+Image path: /home/lablcc/Documents/matheus/image-rev/revs/segmentacoes/sandstones/rev_CA_WEKA3_rm=center_rs=1/imgs/rev_CA_WEKA3_000.png
+Image resolution (um/voxel): 0.625
+Diffusion coefficient (um^2/ms): 2.5
+Number of images: 600
+Walkers pore occupancy in simulation: 2.28914%
+Initial seed: 42
+GPU usage: ON
+BC: mirror
+------------------------------------------------------
+

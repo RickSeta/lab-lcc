@@ -1,0 +1,9 @@
+image path: /home/lablcc/Documents/matheus/image-rev/revs/segmentacoes/sandstones/rev_BE_WEKA3_rm=center_rs=1/imgs/rev_BE_WEKA3_000.png
+width(x): 600
+height(y): 600
+depth(z): 600
+resolution: 1
+voxel shift: 4
+step length: 0.25
+porosity: 0.152993
+SVp: 0.489125

@@ -1,0 +1,14 @@
+------------------------------------------------------
+>>> RWNMR SIMULATION PARAMETERS: PFGSE_NMR_IL_res=2.00_rho=4.90_shift=2_w=1M_ws=1_bc=mirror_axis=2_snr=0.00001
+------------------------------------------------------
+Data path: /home/lablcc/Documents/matheus/cpp-rwnmr/src/.././db/PFGSE_NMR_IL_res=2.00_rho=4.90_shift=2_w=1M_ws=1_bc=mirror_axis=2_snr=0.00001
+Image path: /home/lablcc/Documents/matheus/image-rev/revs/segmentacoes/carbonates/rev_IL_BIN_rm=center_rs=1/imgs/rev_IL_BIN_000.png
+Image resolution (um/voxel): 0.5
+Diffusion coefficient (um^2/ms): 2.5
+Number of images: 600
+Walkers pore occupancy in simulation: 8.88922%
+Initial seed: 42
+GPU usage: ON
+BC: mirror
+------------------------------------------------------
+

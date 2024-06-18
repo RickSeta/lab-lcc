@@ -1,0 +1,9 @@
+image path: /home/lablcc/Desktop/rick/scripts_vuggy/EY_vuggy_r=75_size=600X600_start=0/rev_EY_BIN_000.png
+width(x): 600
+height(y): 600
+depth(z): 151
+resolution: 1
+voxel shift: 4
+step length: 0.25
+porosity: 0.0358664
+SVp: 0.147383

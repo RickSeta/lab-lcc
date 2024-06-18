@@ -1,0 +1,7 @@
+RWNMR-PFGSE Parameters
+D_0: 2.5
+Pulse width: 0.10000000000000001
+Giromagnetic Ratio: 267.51289763847808
+Gradient direction: {0, 0, 1}
+Gradients: 512
+Times: [10000000000, 3.0898179077880385e+43, 9.5469747032876529e+76, 2.9498413403417587e+110, 9.1144725985214365e+143, 2.8162060654955833e+177, 8.7015639331892623e+210, 2.6886248066529823e+244, 8.3073610749198107e+277, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf]

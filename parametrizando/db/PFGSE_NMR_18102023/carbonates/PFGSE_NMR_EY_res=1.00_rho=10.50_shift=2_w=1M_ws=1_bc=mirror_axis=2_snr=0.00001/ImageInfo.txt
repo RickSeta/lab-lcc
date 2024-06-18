@@ -1,0 +1,9 @@
+image path: /home/lablcc/Documents/matheus/image-rev/revs/segmentacoes/carbonates/rev_EY1_WEKA3_rm=center_rs=1/imgs/rev_EY1_WEKA3_000.png
+width(x): 600
+height(y): 600
+depth(z): 600
+resolution: 1
+voxel shift: 4
+step length: 0.25
+porosity: 0.197615
+SVp: 0.477485

@@ -1,0 +1,9 @@
+image path: /home/lablcc/Desktop/matheus/Images/micro-cts_binarizadas/binarizadas/AC_bin_res=1.07um/AC_bin_res=1.07um_000.png
+width(x): 657
+height(y): 685
+depth(z): 955
+resolution: 1
+voxel shift: 2
+step length: 0.5
+porosity: 0.202902
+SVp: 0.983885

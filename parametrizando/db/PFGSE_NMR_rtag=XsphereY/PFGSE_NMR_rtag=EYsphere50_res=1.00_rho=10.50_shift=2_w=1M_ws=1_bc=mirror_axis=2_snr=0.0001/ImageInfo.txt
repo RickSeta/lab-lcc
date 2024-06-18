@@ -1,0 +1,9 @@
+image path: /home/lablcc/Documents/matheus/image-rev/revs/isolated_spheres/sphere_r=50voxels/imgs/sphere_r=50voxels_000.png
+width(x): 102
+height(y): 102
+depth(z): 102
+resolution: 1
+voxel shift: 4
+step length: 0.25
+porosity: 0.493762
+SVp: 0.0900027
